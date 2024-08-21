@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View, Modal } from "react-native";
-import ButtonPrimary from "../buttonPrimary/ButtonPrimary";
+import ButtonPrimary from "./ButtonPrimary";
 const ModalPrimary = ({text, visible, handleVisibleModal, handleModal}) => {
   return (
     <Modal visible={visible} animationType="fade" transparent={true}>

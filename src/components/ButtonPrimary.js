@@ -1,5 +1,5 @@
 import { StyleSheet, Text, Pressable } from 'react-native'
-
+import { colors } from '../global/colors'
 
 const ButtonPrimary = ({text, onPress, children}) => {
   return (
@@ -15,17 +15,24 @@ export default ButtonPrimary
 const styles = StyleSheet.create({
     
   button: {
-    width: 100,
+   /*  width: 100,
     height: 40,
-    backgroundColor: '#FF6666',
-    flex: 1,
-    margin: 10,
-    alignItems: 'center',
+    justifyContent: 'center', */
+    backgroundColor: colors.primary,
+    width: "80%",
+    marginHorizontal: "10%",
+    height: 45,
     borderRadius: 5,
-    justifyContent: 'center',
+    textAlign: "center",
+    textAlignVertical: "center",
+    fontSize: 16,
+    padding: 10,
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 20,
   },
   textButton: {
-    color: '#fff',
+    color: colors.white,
     fontSize: 18,
   } 
 })

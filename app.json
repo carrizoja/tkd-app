@@ -4,13 +4,29 @@
     "slug": "tkd-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo2.png",
+      "imageSize": {
+        "width": 50,
+        "height": 50
+      },
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "animations": {
+        "logo": {
+          "width": ["80%", "60%"],
+          "height": ["80%", "60%"],
+          "translate": ["0%", "10%"],
+          "rotate": ["0deg", "360deg"],
+          "scale": [1, 0.8],
+          "duration": 1000,
+          "loop": true
+        }
+      }
     },
+    "fontFamily": "./assets/fonts/roboto",
     "ios": {
       "supportsTablet": true
     },
@@ -21,7 +37,7 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logo2.png"
     }
   }
 }

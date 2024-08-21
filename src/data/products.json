@@ -1,0 +1,179 @@
+[
+  {
+    "id": 0,
+    "title": "Dobok Traje Taekwondo Itf Gran Marc Talle 5 A 7",
+    "description": "Diseño moderno, pantalón ancho con cintura elastizada de 5 cm, chaqueta con vista reforzada internamente que permite agarres de baja intensidad.",
+    "price": 45000,
+    "discountPercentage": 5,
+    "rating": 4.7,
+    "stock": 10,
+    "brand": "Grand Marc",
+    "category": "Doboks",
+    "thumbnail": "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723056524/dobok2_garnbf.webp",
+    "images": [
+      "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723056599/D_NQ_NP_919415-MLA40972698573_032020-O_gohs3x.webp",
+      "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723056565/D_NQ_NP_745729-MLA40972698574_032020-O_qkoytf.webp"
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Cinturón Taekwondo Artes Marciales blando 5 Costuras",
+    "description": "Cinturón “Blando” económico GranMarc. Colores: Blanco/ Amarillo/ Verde / Azul / Rojo",
+    "price": 7000,
+    "discountPercentage": 5,
+    "rating": 4.8,
+    "stock": 20,
+    "brand": "Grand Marc",
+    "category": "Cinturones",
+    "thumbnail": "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723054983/cinturon_5_costuras_mp6ami.webp",
+    "images": [
+      "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723054983/cinturon_5_costuras_mp6ami.webp"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Dobok Taekwondo Traje Uniforme Gup Entrenamiento+ Cinto Bco",
+    "description": "DOBOK TAEKWONDO. CHAQUETA con cierre ABROJO (velcro). PANTALON con Cintura ELASTIZADA y con cordon de ajuste con bolsillo trasero para guardar el protector bucal. Incluye un cinto blanco de una vuelta. COSTURAS REFORZADAS. FACIL LAVADO Y RAPIDO SECADO. BLANCO INALTERABLE",
+    "price": 33000,
+    "discountPercentage": 7,
+    "rating": 4.7,
+    "stock": 30,
+    "brand": "Genérico",
+    "category": "Doboks",
+    "thumbnail": "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723056423/D_NQ_NP_789864-MLA76234068238_052024-O_xx9ekb.webp",
+    "images": [
+      "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723056376/dobok1_vszmji.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_908252-MLA77381256523_072024-O.webp"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Remeras Taekwondo Itf Unicas",
+    "description": "Remera de Algodon. Talles del S al XXL",
+    "price": 22000,
+    "discountPercentage": 10,
+    "rating": 4.5,
+    "stock": 30,
+    "brand": "Genérico",
+    "category": "Remeras",
+    "thumbnail": "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723055938/remeranegra_c2ao1d.webp",
+    "images": [
+      "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723055974/D_NQ_NP_734337-MLA48462341982_122021-O_pjboff.webp",
+      "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723056027/medidasNegra_tzmv8z.webp"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Protectores Pie O Mano Taekwon-do Sparring Oficiales Itf 2 a 5",
+    "description": "Colores: Azul y Rojo. Fabricado con goma sintética. Cobertura poliuretánica. Excelente absorción al impacto. Formato anatómico. Flexible. Fácil de limpiar. Espesor de la goma: 15 a 17 mm. MODELO SPARRING",
+    "price": 50000,
+    "discountPercentage": 33,
+    "rating": 4.8,
+    "stock": 20,
+    "brand": "Gran Marc",
+    "category": "Protecciones",
+    "thumbnail": "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723055399/guante_azul_revaez.webp",
+    "images": [
+      "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723055810/D_NQ_NP_959188-MLA50495605166_062022-O_v5fup8.webp",
+      "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723055484/guanteazul2_byq8nb.webp"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Cinturón Duro 10 Costuras Taekwondo Granmarc Negro Y Colores",
+    "description": "100% algodón, costuras reforzadas, diseño tradicional.",
+    "price": 9000,
+    "discountPercentage": 5,
+    "rating": 4.8,
+    "stock": 25,
+    "brand": "Grand Marc",
+    "category": "Cinturones",
+    "thumbnail": "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723055185/D_NQ_NP_786207-MLA74606657545_022024-O_qm9kf2.webp",
+    "images": [
+        "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723055185/D_NQ_NP_786207-MLA74606657545_022024-O_qm9kf2.webp"
+   
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Remera Taekwondo Granmarc Original Itf Wtf Algodon Dodok Pad",
+    "description": "Remera 100% de algodón de excelente calidad. No se deforma ni se decolora. Estampados en serigrafia de alta resistencia.",
+    "price": 16000,
+    "discountPercentage": 10,
+    "rating": 4.6,
+    "stock": 22,
+    "brand": "Genérico",
+    "category": "Remeras",
+    "thumbnail": "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723056919/remera1_qbier8.webp",
+    "images": [
+        "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723057236/D_NQ_NP_839745-MLA29963954313_042019-O_gd1ize.webp"
+   
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Combo Protector De Pie Y Mano ''sparring'' Granmarc(adultos)",
+    "description": "Combo protección Sparring Granmarc (talle adultos): par de guantes y par de zapatos.",
+    "price": 100000,
+    "discountPercentage": 15,
+    "rating": 4.9,
+    "stock": 15,
+    "brand": "Grand Marc",
+    "category": "Protecciones",
+    "thumbnail": "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723057482/comboprotectores_n781ay.webp",
+    "images": [
+        "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723057693/zapatos1_nytknh.webp",
+        "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723057730/guantes_of5u8b.webp"
+   
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Puntas Para Cinturones Taekwondo Granmarc Original Itf Nuevo",
+    "description": "Puntas para cinturones Taekwondo originales Grand Marc",
+    "price": 2800,
+    "discountPercentage": 5,
+    "rating": 4.6,
+    "stock": 50,
+    "brand": "Grand Marc",
+    "category": "Cinturones",
+    "thumbnail": "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723058117/puntas_mvt4f8.webp",
+    "images": [
+        "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723058117/puntas_mvt4f8.webp"
+
+   
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Bolso Mochila Premiun Granmarc Gran Capacidad Taekwondo Itf",
+    "description": "Logo nuevo ITF o Tradicional. Gran capacidad (protecciones completas y Dobok). Resistente. Cintas de transporte como bolso o mochila. Forrado internamente. Bolsillos laterales. Diseño elegante. Medidas 72cm de largo xx 33cm de ancho.",
+    "price": 84000,
+    "discountPercentage": 15,
+    "rating": 4.9,
+    "stock": 10,
+    "brand": "Grand Marc",
+    "category": "Bolsos",
+    "thumbnail": "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723058416/bolsos1_wvqesi.webp",
+    "images": [
+        "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723058454/bolso2_topb2g.webp"
+
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Dobok Taekwondo Itf Shiai Talles 5 A 7 Uniforme Traje",
+    "description": "100 % Algodón. Pantalón con cintura Elastizada. Chaqueta con abrojo. Estampado con logo I.T.F. Tela: Acrocel. Cinturón blanco incluido.",
+    "price": 43000,
+    "discountPercentage": 5,
+    "rating": 4.8,
+    "stock": 20,
+    "brand": "Shiai",
+    "category": "Doboks",
+    "thumbnail": "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723058616/dobok2_h3mie3.webp",
+    "images": [
+        "https://res.cloudinary.com/dpdh6arrf/image/upload/v1723058616/dobok2_h3mie3.webp"
+
+    ]
+  }
+]
