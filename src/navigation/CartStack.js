@@ -8,12 +8,12 @@ const CartStack = () => {
     <Stack.Navigator
         screenOptions={() => {
             return {
-                header: () => <Header title="Cart" />,
+                header: () => <Header title="Carrito" />,
         }
         }
         }
     >
-      <Stack.Screen name="Carrito" component={Cart} />
+      <Stack.Screen name="Cart" component={Cart} />
       
     </Stack.Navigator>
   )

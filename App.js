@@ -4,13 +4,16 @@ import React from "react";
 import { useFonts } from "expo-font";
 import { fonts } from "./src/global/fonts";
 import { colors } from "./src/global/colors";
-import Navigator from "./src/navigation/Navigator";
-import {store} from './src/app/store'
-import {Provider} from 'react-redux'
+import MainNavigator from "./src/navigation/MainNavigator";
+import { store } from "./src/app/store";
+import { Provider } from "react-redux";
+import { init } from "./src/db/index";
 
 export default function App() {
+
+ init();
+
   const [fontLoaded] = useFonts(fonts);
- 
 
   if (!fontLoaded) {
     return null;
@@ -18,9 +21,9 @@ export default function App() {
 
   return (
     <>
-    <Provider store={store}>
-    <Navigator />
-    </Provider>
+      <Provider store={store}>
+        <MainNavigator />
+      </Provider>
       <StatusBar style="auto" backgroundColor={colors.primaryLight} />
     </>
   );
@@ -28,7 +31,6 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    /* flex: 1, */
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",

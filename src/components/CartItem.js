@@ -1,18 +1,28 @@
 
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View, Pressable } from 'react-native'
 import Entypo from '@expo/vector-icons/Entypo';
+import { removeItemFromCart } from '../features/cart/cartSlice';
+import { useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 const CartItem = ({item}) => {
-
-  return ( 
+  const quantity = useSelector((state) => state.counter.quantity);
+  const dispatch = useDispatch();
+  const onDelete = (id) => {
+    dispatch(removeItemFromCart(id));
+  }
   
+  return ( 
     <View style={styles.container}>
       <View style={styles.containerText}>
         <Text style={styles.title}>{item.title}</Text>
-        <Text style={styles.brand}>{item.brand}</Text>
-        <Text style={styles.price}>$ {item.price}</Text>
+        <Text style={styles.brand}>Marca: {item.brand}</Text>
+        <Text style={styles.price}>Precio unidad: $ {item.price}</Text>
+        <Text style={styles.price}>Cantidad: {quantity}</Text>
       </View>
-      <Entypo name="trash" size={24} color="black" />
+      <Pressable onPress={() => onDelete(item.id)}>
+        <Entypo name="trash" size={24} color="black" />
+      </Pressable>
     </View>
   )
 }
@@ -42,7 +52,8 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     brand: {
-        fontSize: 16,
+        fontSize: 18,
+        fontWeight: 'bold',
     },
     price: {
         fontSize: 16,

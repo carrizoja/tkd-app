@@ -15,9 +15,6 @@ export default ButtonPrimary
 const styles = StyleSheet.create({
     
   button: {
-   /*  width: 100,
-    height: 40,
-    justifyContent: 'center', */
     backgroundColor: colors.primary,
     width: "80%",
     marginHorizontal: "10%",
@@ -29,7 +26,7 @@ const styles = StyleSheet.create({
     padding: 10,
     alignItems: "center",
     justifyContent: "center",
-    marginTop: 20,
+    marginTop: 5,
   },
   textButton: {
     color: colors.white,

@@ -1,20 +1,24 @@
-import { StyleSheet, View, FlatList} from "react-native";
+import { StyleSheet, View, FlatList, Text} from "react-native";
 import { useEffect, useState } from "react";
 import Search from "../components/Search";
 import Productitem from "../components/Productitem";
-import { useSelector } from "react-redux";
+import { useGetProductsQuery } from "../services/shop";
+import LoadingSpinner from "../components/LoadingSpinner";
 
 const ItemListCategories = ({route}) => {
-
-  const products = useSelector((state) => state.shop.products);
   const { category } = route.params;
+  const {data:products, isSuccess, isLoading, isError, error} = useGetProductsQuery(category);
   const [productsFilteredByCategory, setProductsFilteredByCategory] = useState([]);
  
 
   useEffect(() => {
-    setProductsFilteredByCategory
-    (products.filter(product => product.category === category));
-    }, [category]);
+    if (isSuccess) {
+      setProductsFilteredByCategory(products);
+    }
+    if (isError) {
+      console.log(error);
+    }
+    }, [category, isSuccess, isError]);
 
     const onSearch = (input) => {
         if (!input) {
@@ -27,6 +31,9 @@ const ItemListCategories = ({route}) => {
         }
       
     }
+
+    if (isLoading) return <LoadingSpinner />
+    if (isError) return <View><Text>{error.message}</Text></View>
 
   return (
     <View style = {styles.container}>

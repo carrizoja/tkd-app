@@ -4,29 +4,17 @@
     "slug": "tkd-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logo2.png",
+    "icon": "./assets/logo2square.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/logo2.png",
+      "image": "./assets/logo2square.png",
       "imageSize": {
         "width": 50,
         "height": 50
       },
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff",
-      "animations": {
-        "logo": {
-          "width": ["80%", "60%"],
-          "height": ["80%", "60%"],
-          "translate": ["0%", "10%"],
-          "rotate": ["0deg", "360deg"],
-          "scale": [1, 0.8],
-          "duration": 1000,
-          "loop": true
-        }
-      }
+      "backgroundColor": "#ffffff"
     },
-    "fontFamily": "./assets/fonts/roboto",
     "ios": {
       "supportsTablet": true
     },
@@ -34,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.carrizoja.tkdapp"
     },
     "web": {
       "favicon": "./assets/logo2.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f12b446f-727a-4fce-802b-207c1edd2c6c"
+      }
     }
   }
 }
